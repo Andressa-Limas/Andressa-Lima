@@ -17,7 +17,7 @@ jobs:
         uses: Platane/snk@v2
         with:
           github_user_name: andressa-limas
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          outputs: dist
 
       - name: Push animation to output branch
         uses: ad-m/github-push-action@v0.6.0
